@@ -1,0 +1,43 @@
+body{
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+background-color: honeydew;
+color: rgb(255, 130, 47);
+   
+}
+h2{
+font-family:'Roboto', sans-serif; 
+color: rgb(136, 126, 126);
+} 
+h4{
+font-family:'Roboto', sans-serif; 
+color: rgb(136, 126, 126);
+}
+p{
+color: rgba(102, 85, 58, 0.856);
+font-size: 20 px;
+line-height: 1,5;
+}  
+section{
+width: 60%;
+margin:0 auto;
+}
+img{
+border:5px solid rgb(226, 153, 18);
+}
+.coluna1{
+background-color: #ff9; 
+border:5px solid rgb(223, 100, 28); 
+padding: 5px;
+text-align:center;
+width: min-content;
+display: inline-block;
+}
+.coluna2{
+background-color: #ff9; 
+border:5px solid rgb(223, 100, 28); 
+padding: 5px;
+text-align:center;
+width: min-content;
+display: inline-block;
+}
