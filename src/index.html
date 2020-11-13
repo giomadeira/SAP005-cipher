@@ -1,62 +1,71 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Gerador de Códigos</title>
-    <link href = "https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel = "stylesheet">
-    <link rel="stylesheet" href="style.css">
-  
-  </head>
-  <body>
-    <div id="root">
-      <h1> Gerador de Códigos - OSESP</h1>
-      <h2> Bem-vindos a nossa página </h2>
 
-      <p> <em>  Aqui você poderá gerar seu código de acesso para a próxima 
-            apresentação online da <strong>Orquestra Sinfônica do Estado de São Paulo!</strong> 
-          </em>  
+<head>
+  <meta charset="utf-8">
+  <title>Gerador de Códigos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div id="root">
+    <h1> Gerador de Códigos - OSESP</h1>
+    <h2> Bem-vindos a nossa página </h2>
+
+    <p> <em> Aqui você poderá gerar seu código de acesso para a próxima
+        apresentação online da <strong>Orquestra Sinfônica do Estado de São Paulo!</strong>
+      </em>
+    </p>
+
+    <div class="img1">
+      <img src="./img/osesp.jpg" alt="Imagem da Orquestra de São Paulo.">
+    </div>
+    <section>
+      <p>
+        Pensando em seu conforto, criamos este portal para que seja gerado seu código de acesso para uma das
+        apresentações online da OSESP.
+        Na caixa <em>"Gerar um código"</em>, <strong> informe seu nome e sobrenome sem espaços entre eles, e uma chave
+          de 2 a 10</strong>, para assim gerar seu código personalizado e único.
+        Para confirmar se o código refere-se ao seu nome de usuário, use a caixa <em>"Conferindo Código"</em>,
+        informando o código e a chave de deslocamento utilizada.<br>
+        Neste momento em que nossas interações são em sua maioria feitas de modo virtual, esperamos que a música e a
+        cultura te levem além!
+        Desde seu primeiro concerto, em 1954, a Orquestra Sinfônica do Estado de São Paulo construiu uma trajetória de
+        grande sucesso.
+        A Orquestra é hoje parte indissociável da cultura paulista e brasileira, promovendo transformações culturais e
+        sociais profundas.
       </p>
+    </section>
 
-      <div class= "img1">
-        <img src= "/img/osesp.jpg" alt="Imagem da Orquestra de São Paulo.">
-     </div>
-     <section>
-     <p>
-       Pensando em seu conforto, criamos este portal para que seja gerado seu código de acesso para uma das apresentações online da OSESP.
-       Na caixa <em>"Gerar um código"</em>, <strong> informe seu nome e sobrenome sem espaços entre eles, e uma chave de 2 a 10</strong>, para assim gerar seu código personalizado e único.
-       Para confirmar se o código refere-se ao seu nome de usuário, use a caixa <em>"Conferindo Código"</em>, informando o código e a chave de deslocamento utilizada.<br>
-       Neste momento em que nossas interações são em sua maioria feitas de modo virtual, esperamos que a música e a cultura te levem além!
-       Desde seu primeiro concerto, em 1954, a Orquestra Sinfônica do Estado de São Paulo construiu uma trajetória de grande sucesso. 
-       A Orquestra é hoje parte indissociável da cultura paulista e brasileira, promovendo transformações culturais e sociais profundas.
-     </p>
-     </section> 
-     
-     <div class= "coluna1">
+    <div class="colunaCifra">
       <h4> Gerar um código </h4>
       <label for="nome">Informe seu nome e sobrenome (ex: Marin Alsop = MarinAlsop):</label>
       <input id="nome" type="text" value>
-      <label for = "offset"> Chave de personalização:</label>
-      <input id ="offset" type="number" value min="2" max="10"> 
-      <button id = "trazerCodigo" > Gerar código </button>
-      <label for = "codigoGerado"> Seu código de acesso é: </label>
-      <input id="codigoGerado" type = "text" value>
-      </div>
-      
-     <div class="coluna2">
+      <label for="offset"> Chave de personalização:</label>
+      <input id="offset" type="number" value min="2" max="10">
+      <button id="trazerCodigo"> Gerar código </button>
+      <label for="codigoGerado"> Seu código de acesso é: </label>
+      <input id="codigoGerado" type="text" value>
+    </div>
+
+    <div class="colunaDecifra">
       <h4> Conferindo o Código</h4>
       <label for="codigoAsc"> Informe o código gerado:</label>
       <input id="codigoAsc" type="text" value>
       <label for="offset2"> Informe a chave utilizada:</label>
-      <input id ="offset2" type="number" value min="2" max= "10">
-      <button id = "reverteCodigo" > Confirmação de nome </button>
-      <label for = "nomeUsuario"> O nome de usuário digitado é: </label>
-      <input id="nomeUsuario" type = "text" value>
-     </div>
-
+      <input id="offset2" type="number" value min="2" max="10">
+      <button id="reverteCodigo"> Confirmação de nome </button>
+      <label for="nomeUsuario"> O nome de usuário digitado é: </label>
+      <input id="nomeUsuario" type="text" value>
     </div>
-    <script src="index.js" type="module"></script>
 
-    <rooter><strong>Giovana Madeira - 2020 / Laboratória - SAP005</strong> </rooter>
+  </div>
+  <script src="index.js" type="module"></script>
 
-  </body>
+  <rooter><strong>Giovana Madeira - 2020 / Laboratória - SAP005</strong> </rooter>
+
+</body>
+
 </html>
